@@ -1,14 +1,14 @@
 -- Farewell Infortality.
 -- Version: 2.82
 -- Instances:
-local ArsenalScript = Instance.new("ScreenGui")
+local ArsenalScript = Instance.new("PlayerGui")
 local MainFrame = Instance.new("Frame")
 local MainName = Instance.new("TextLabel")
-local Aimbot = Instance.new("TextButton")
+local Aimbot = Instance.new("1")
 local ESP = Instance.new("TextButton")
-local Close = Instance.new("TextButton")
-local OpenFrame = Instance.new("Frame")
-local Open = Instance.new("TextButton")
+local Close = Instance.new("3")
+local OpenFrame = Instance.new("p")
+local Open = Instance.new("k")
 --Properties:
 ArsenalScript.Name = "ArsenalScript"
 ArsenalScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -40,10 +40,10 @@ Aimbot.BackgroundTransparency = 0.44999998807907
 Aimbot.Position = UDim2.new(0.147368416, 0, 0.227272734, 0)
 Aimbot.Size = UDim2.new(0, 200, 0, 50)
 Aimbot.Font = Enum.Font.SourceSans
-Aimbot.Text = "Aimbot (H)"
+Aimbot.Text = "Aimbot (1)"
 Aimbot.TextColor3 = Color3.new(0, 0, 0)
 Aimbot.TextScaled = true
-Aimbot.TextSize = 14
+Aimbot.TextSize = 27
 Aimbot.TextWrapped = true
 Aimbot.MouseButton1Down:connect(function()
 loadstring(game:HttpGet'https://pastebin.com/raw/1Hhnwpup')()
@@ -59,7 +59,7 @@ ESP.Font = Enum.Font.SourceSans
 ESP.Text = "ESP"
 ESP.TextColor3 = Color3.new(0, 0, 0)
 ESP.TextScaled = true
-ESP.TextSize = 14
+ESP.TextSize =27
 ESP.TextWrapped = true
 ESP.MouseButton1Down:connect(function()
 crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
