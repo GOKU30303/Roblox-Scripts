@@ -1,12 +1,12 @@
 -- Farewell Infortality.
 -- Version: 2.82
 -- Instances:
-local ArsenalScript = Instance.new("ScreenGui")
+local ArsenalScript = Instance.new("PlayerGui")
 local MainFrame = Instance.new("Frame")
 local MainName = Instance.new("TextLabel")
-local Aimbot = Instance.new("TextButton")
+local Aimbot = Instance.new("1")
 local ESP = Instance.new("TextButton")
-local Close = Instance.new("TextButton")
+local Close = Instance.new("3")
 local OpenFrame = Instance.new("Frame")
 local Open = Instance.new("TextButton")
 --Properties:
